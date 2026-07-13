@@ -4,6 +4,8 @@
 
 ### 🛠 Breaking changes
 
+- Add `redirectTo` to protected routes and render guarded screens as redirects instead of removing them from navigators. ([#47744](https://github.com/expo/expo/pull/47744) by [@Ubax](https://github.com/Ubax))
+
 ### 🎉 New features
 
 - [android] Support `Stack.Toolbar.Badge` in header left/right placements ([#46537](https://github.com/expo/expo/pull/46537) by [@benjaminkomen](https://github.com/benjaminkomen))
@@ -14,7 +16,6 @@
 - Re-export drawer content components and types (`DrawerContentScrollView`, `DrawerItem`, `DrawerItemList`, `DrawerContentComponentProps`, `DrawerNavigationProp`, and more) from `expo-router/drawer` ([#46635](https://github.com/expo/expo/pull/46635) by [@Ubax](https://github.com/Ubax))
 - [native-tabs] Emit a `tabPress` event with `isPrevented: true` when a `disabled` tab is tapped, without selecting it. ([#46445](https://github.com/expo/expo/pull/46445) by [@Ubax](https://github.com/Ubax))
 - [native-tabs] Add `testID` and `accessibilityLabel` props to `NativeTabs.Trigger`. ([#47472](https://github.com/expo/expo/pull/47472) by [@ramonclaudio](https://github.com/ramonclaudio))
-- Add `redirectTo` to protected routes and render guarded screens as redirects instead of removing them from navigators. ([#47744](https://github.com/expo/expo/pull/47744) by [@Ubax](https://github.com/Ubax))
 
 ### 🐛 Bug fixes
 
